@@ -27,7 +27,7 @@ function registrar( nombre, edad, tipo, color, enfermedad ){
 
 function leer(){
     //Leemos el archivo citas.json
-    const citas = JSON.parse( fs.writeFileSync('./citas.json', 'utf-8') );
+    const citas = JSON.parse( fs.readFileSync('./citas.json', 'utf-8') );
 
     //Mostramos el resultado en consola
     console.log('<--------- Citas Registradas ------------>');

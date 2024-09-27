@@ -1,7 +1,7 @@
 const { registrar, leer } = require('./operaciones');
 
 //obtener los argumentos de la linea de comandos
-const [operacion,nombre, edad, tipo, color, enfermedad] = process.argv.slice(2);
+const [operacion, nombre, edad, tipo, color, enfermedad] = process.argv.slice(2);
 
 //Evaluar la operacion
 if(operacion === 'registrar'){
@@ -11,3 +11,4 @@ if(operacion === 'registrar'){
 }else{
     console.log('La operacion no pudo ser realizada, debes escribir registrar o leer');
 }
+

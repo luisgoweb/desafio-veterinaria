@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "nombre": "Rocky",
+        "edad": "6 meses",
+        "tipo": "gato",
+        "color": "blanco con negro",
+        "enfermedad": "come mucho"
+    }
+]
